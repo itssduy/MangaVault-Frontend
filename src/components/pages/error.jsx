@@ -1,5 +1,5 @@
 
-const errorPage = ()=>{
+const error = ()=>{
     return (
         <>
 
@@ -9,4 +9,4 @@ const errorPage = ()=>{
 }
 
 
-export default errorPage;
+export default error;

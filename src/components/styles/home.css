@@ -1,0 +1,15 @@
+.homeContainer {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: 100%;
+    margin: 30px 50px;
+    gap: 20px;
+}
+
+.mangas {
+    border: 1px solid #000000;
+}
+
+.trending {
+    border: 1px solid #000000;
+}

@@ -1,11 +1,21 @@
-import HomePage from './components/pages/homePage.jsx'
-import ErrorPage from './components/pages/errorPage.jsx'
+import Home from './components/pages/home.jsx'
+import Error from './components/pages/error.jsx'
+import App from './App.jsx';
 
 const routes = [
     {
         path: '/',
-        element: <HomePage />,
-        errorElement: <ErrorPage /> 
+        element: <App />,
+        errorElement: <Error />,
+        children: [
+            {
+                path: '/',
+                element: <Home />,
+            },
+            {
+                path: '/manga',
+            }
+        ]
     }
 ]
 
