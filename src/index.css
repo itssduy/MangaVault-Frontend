@@ -1,10 +1,15 @@
 :root {
+  --title-font: 'Courier New', Courier, monospace;
+  --primary-font: 'Roboto', 'Courier New', Courier, monospace;
+
   --bg-dark: #1B262C;
   --primary-blue: #0F4C75;
   --secondary-blue: #3282B8;
   --tertiary-blue: #BBE1FA;
   --text: #FFFFFF;
 }
+
+
 * {
   padding: 0px;
   margin: 0px;
