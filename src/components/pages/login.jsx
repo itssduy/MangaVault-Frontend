@@ -1,7 +1,7 @@
 import '../styles/login.css'
 
 
-const login = ()=>{
+const Login = ()=>{
     return (
         <>
             <h1>Login</h1>
@@ -10,4 +10,4 @@ const login = ()=>{
 }
 
 
-export default login
+export default Login

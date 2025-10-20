@@ -1,5 +1,5 @@
 
-const error = ()=>{
+const Error = ()=>{
     return (
         <>
 
@@ -9,4 +9,4 @@ const error = ()=>{
 }
 
 
-export default error;
+export default Error;
