@@ -21,7 +21,9 @@ function App() {
         <Header></Header>
 
 
-        <Outlet></Outlet>
+        <main className="mainContainer">
+          <Outlet></Outlet>
+        </main>
       </AuthContext>
       
 

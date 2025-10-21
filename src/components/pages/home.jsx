@@ -7,7 +7,7 @@ import { AuthContext } from '../../Contexts/AuthContext'
 const Home = ()=>{
 
     const auth = useContext(AuthContext)
-     let navigate = useNavigate();
+    let navigate = useNavigate();
 
     useEffect(()=>{
         if(!auth)
@@ -23,7 +23,7 @@ const Home = ()=>{
         <>
             {auth &&
             
-                <main className='homeContainer'>
+                <div className='homeContainer'>
 
                     <div className='mangas'>
                         <ul className='mangasList'>
@@ -37,7 +37,7 @@ const Home = ()=>{
                     <div className='trending'>
                         <p>Trending</p>
                     </div>
-                </main>
+                </div>
             }
             
         </>
