@@ -1,0 +1,10 @@
+header {
+    border-bottom: 1px solid #000000;
+}
+.navlist {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 50px;
+    list-style: none;
+}

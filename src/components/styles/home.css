@@ -1,0 +1,42 @@
+.homeContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 100%;
+
+    margin: 30px 100px;
+    gap: 30px;
+}
+
+.mangas {
+    border: 1px solid #000000;
+}
+
+.trending {
+    border: 1px solid #000000;
+}
+
+.mangasList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 30px;
+    gap: 30px;
+    list-style: none;
+}
+
+.manga {
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+
+
+
+
+@media screen and (max-width: 414px){
+    .mangasList {
+        grid-template-columns: 1fr;
+    }
+}
