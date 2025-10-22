@@ -5,10 +5,20 @@ const Login = ()=>{
     const loginUrl = `${import.meta.env.VITE_API_URL}/auth/login`
 
 
-    const onSubmit = (e)=>{
+    const onSubmit = async (e)=>{
         e.preventDefault();
 
+
         console.log(loginUrl);
+
+        
+        const response = await fetch(loginUrl, {
+            headers: { "Content-Type": "application/json" },
+            method: "post",
+            body: JSON.stringify({username: "test", password:"test"}),
+            mode: "cors"
+        });
+        console.log(response)
     }
     return (
         <>
